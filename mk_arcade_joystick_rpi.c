@@ -139,7 +139,7 @@ struct mk_subdev {
 static struct mk *mk_base;
 
 // Map of the gpios :                     up, down, left, right, start, select, a,  b,  tr, y,  x,  tl, hk
-static const int mk_arcade_gpio_maps[] = {4,  17,    27,  22,    10,    9,      25, 24, 23, 18, 15, 14, 2 };
+static const int mk_arcade_gpio_maps[] = {4,  17,    27,  22,    12,    6,      5, 24, 23, 18, 15, 14, 2 };
 // 2nd joystick on the b+ GPIOS                 up, down, left, right, start, select, a,  b,  tr, y,  x,  tl, hk
 static const int mk_arcade_gpio_maps_bplus[] = {11, 5,    6,    13,    19,    26,     21, 20, 16, 12, 7,  8,  3 };
 
